@@ -7,7 +7,7 @@
 <title>CGI Practice page login</title>
 </head>
 <body>
-	<form name="loginForm" method="get" action="customer/list">
+	<form name="loginForm" method="get" action="loginCheck">
 		<table width="20%" bgcolor="0099CC" align="center">
 
 			<tr>
@@ -18,12 +18,12 @@
 
 			<tr>
 				<td>Username:</td>
-				<td><input type="text" size=25 name="userid"></td>
+				<td><input type="text" size=25 name="userid" id="userid"></td>
 			</tr>
 
 			<tr>
 				<td>Password:</td>
-				<td><input type="Password" size=25 name="pwd"></td>
+				<td><input type="Password" size=25 name="pwd" id="pwd"></td>
 			</tr>
 
 			<tr>
@@ -38,7 +38,9 @@
 <script language="javascript">
 	function check(form) {
 
-		if (form.userid.value == "graham" && form.pwd.value == "graham") {
+		//defualt user in db = graham pwd: graham
+		
+		if (form.userid.value != "" && form.pwd.value!= "") {
 			return true;
 		} else {
 			alert("Error Password or Username")
