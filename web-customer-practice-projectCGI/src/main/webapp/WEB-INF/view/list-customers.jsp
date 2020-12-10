@@ -63,7 +63,7 @@
 		</div>
 	</div>
 	
-	<h3> <a href="login" >Click Here to go back to CGI Login page</a> </h3>
+	<h3> <a href="http://localhost:8083/springmvc-web-customer-practice-projectCGI/login" >Click Here to go back to CGI Login page</a> </h3>
 
 </body>
 </html>

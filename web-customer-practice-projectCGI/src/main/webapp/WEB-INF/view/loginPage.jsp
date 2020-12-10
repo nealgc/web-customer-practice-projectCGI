@@ -7,7 +7,7 @@
 <title>CGI Practice page login</title>
 </head>
 <body>
-	<form name="loginForm" method="get" action="list">
+	<form name="loginForm" method="get" action="customer/list">
 		<table width="20%" bgcolor="0099CC" align="center">
 
 			<tr>
