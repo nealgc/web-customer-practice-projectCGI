@@ -1,0 +1,11 @@
+package com.grahamjava.springmvc.dao;
+
+import java.util.List;
+
+import com.grahamjava.springmvc.entity.Customer;
+
+public interface CustomerDAO {
+
+	List<Customer> getCustomers();
+	
+}

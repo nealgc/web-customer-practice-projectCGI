@@ -1,1 +1,7 @@
+com\grahamjava\springmvc\entity\Customer.class
+com\grahamjava\springmvc\dao\CustomerDAO.class
+com\grahamjava\springmvc\service\CustomerService.class
+com\grahamjava\springmvc\dao\CustomerDAOImpl.class
+com\grahamjava\springmvc\service\CustomerServiceImpl.class
+com\grahamjava\springmvc\controller\CustomerController.class
 com\grahamjava\springmvc\controller\LoginController.class

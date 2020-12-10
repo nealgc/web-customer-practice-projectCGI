@@ -18,13 +18,52 @@
 		</div>
 	</div>
 
-    <p>This is some text in a paragraph.</p>
-    
-    <h1>TO DO CREATE THIS CUSTOMER LIST PAGE</h1>
-    
-    	<h3>
-			<a href="login">Click Here to go back to CGI Login page</a>
-		</h3>
-  
+	<div id="container">
+		<div id="content">
+
+			<button class="add-button"
+				onclick="window.location.href='showFormForAdd'; return false;">
+				Add Customer</button>
+
+			<!--  add out html table  -->
+			<table>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Action</th>
+				</tr>
+
+				<c:forEach var="tempCustomer" items="${customers}">
+				
+	                <!-- construct an "update" link with customer id -->
+					<c:url var="updateLink" value="/customer/showFormForUpdate">
+						<c:param name="customerId" value="${tempCustomer.id}" />
+					</c:url>	
+					
+	                <!-- construct an "delete" link with customer id -->
+					<c:url var="deleteLink" value="/customer/delete">
+						<c:param name="customerId" value="${tempCustomer.id}" />
+					</c:url>
+					
+					<tr>
+						<td>${tempCustomer.firstName}</td>
+						<td>${tempCustomer.lastName}</td>
+						<td>${tempCustomer.email}</td>
+						<td>
+							<!--  display update link  --> 
+							<a href="${updateLink}">Update</a>
+							
+							<a href="${deleteLink}"  
+							   onClick="if (!(confirm('Are you sure you want to delete this customer?'))) return false">Delete</a>
+						</td>
+					</tr>
+				</c:forEach>
+			</table>
+		</div>
+	</div>
+	
+	<h3> <a href="login" >Click Here to go back to CGI Login page</a> </h3>
+
 </body>
 </html>

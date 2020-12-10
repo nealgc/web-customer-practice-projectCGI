@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.grahamjava.springmvc.controller.LoginPageControllerTest" time="5.318" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.grahamjava.springmvc.controller.LoginPageControllerTest" time="0.035" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
     <property name="java.vm.version" value="25.271-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\GRAHAM_NEW_PRACTICE_2020_ONWARDS\SpringHibernate_Udemy\eclipse-workspace\web-customer-practice-projectCGI"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Graham\git\repository\web-customer-practice-projectCGI"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\GRAHAM_NEW_PRACTICE_2020_ONWARDS\SpringHibernate_Udemy\eclipse-workspace\web-customer-practice-projectCGI"/>
+    <property name="user.dir" value="C:\Users\Graham\git\repository\web-customer-practice-projectCGI"/>
     <property name="java.runtime.version" value="1.8.0_271-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\GRAHAM_NEW_PRACTICE_2020_ONWARDS\SpringHibernate_Udemy\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5514715912954681202.tmp"/>
+    <property name="classworlds.conf" value="C:\GRAHAM_NEW_PRACTICE_2020_ONWARDS\SpringHibernate_Udemy\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5880217782577799252.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\app\Family\product\11.2.0\client_1;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\ant\apache-ant-1.9.6\bin;C:\apache_maven\apache-maven-3.3.9\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Gradle\gradle-4.6\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Notepad++;C:\Program Files\Perforce\;C:\gitforwindows\Git\bin;C:\Program Files\Jenkins;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\app\Family\product\11.2.0\client_1;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\PROGRA~2\M359\SYBASE\SQLANY~1\WIN32;C:\PROGRA~2\M359\SYBASE\SHARED\WIN32;C:\PROGRA~2\M359\SYBASE\SHARED\SYBASE~1.3\WIN32;C:\T320\jdk1.6.0_21\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\ant\apache-ant-1.9.6\bin;C:\apache_maven\apache-maven-3.3.9\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Graham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Graham\AppData\Roaming\npm;C:\Users\Graham\AppData\Local\Microsoft\WindowsApps;C:\gitforwindows\Git\cmd;C:\eclipseOxygen\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\GRAHAM_NEW_PRACTICE_2020_ONWARDS\SpringHibernate_Udemy\eclipse-workspace\web-customer-practice-projectCGI\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Graham\git\repository\web-customer-practice-projectCGI\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.grahamjava.springmvc.controller.LoginPageControllerTest" name="testLoginControllerPage" time="5.318"/>
+  <testcase classname="com.grahamjava.springmvc.controller.LoginPageControllerTest" name="testLoginControllerPage" time="0.035"/>
 </testsuite>
